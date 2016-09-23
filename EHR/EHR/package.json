@@ -1,0 +1,29 @@
+{
+  "name": "kyee",
+  "version": "1.0.0",
+  "description": "kyeeEHR",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --content-base ."
+  },
+  "author": "heleilei",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-router": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.5.1",
+    "babel-loader": "^6.2.2",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "css-loader": "^0.25.0",
+    "http-server": "^0.8.5",
+    "react-bootstrap": "^0.30.3",
+    "react-fontawesome": "^1.2.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.12.13",
+    "webpack-dev-server": "^1.14.1"
+  }
+}

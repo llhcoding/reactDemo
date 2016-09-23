@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body,h1,h2,h3,h4,p ul,p{
+  margin:0;
+  padding:0;
+}
+html,body{
+  width: 100%;
+  font-size: 14px;
+  font-family: "Microsoft YaHei", "微软雅黑","Hiragino Sans GB", "宋体", Arial, Verdana, sans-serif;
+}
+ul{
+  list-style-type: none;
+  margin-bottom: 0;
+}
+#root{
+  padding:0 15px;
+  margin:0 auto;
+  #ehr{
+    margin:0 -15px;
+  }
+}

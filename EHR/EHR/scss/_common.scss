@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+//header
+.header{
+  position: relative;
+  padding:18px 0 18px 15px;
+  box-shadow: 0 2px 7px #c1c1c1;
+  color: $commonBule;
+  @include clear();
+  span{
+    font-size: 44px;
+    float: left;
+  }
+  .title{
+    float: left;
+    text-align: center;
+    margin-left: 5px;
+    font-size: $commonFontSizeDefault;
+    h2{
+      font-weight: bolder;
+      line-height: 1;
+    }
+    p{
+      margin-top: 6px;
+      font-size: $commonFontSizeLarge;
+      font-weight: bolder;
+      line-height: 1;
+    }
+  }
+  .header-nav{
+    position: absolute;
+    bottom:18px;
+    left: 320px;
+    list-style: none;
+    @include clear();
+    li{
+      float: left;
+      font-size: 16px;
+      line-height: 1;
+      font-weight: bolder;
+      margin-right: 90px;
+      &:last-child{
+        margin:0;
+      }
+      a{
+        text-decoration: none;
+      }
+    }
+  }
+  .style-btn{
+    position: absolute;
+    right: 50px;
+    bottom: 5px;
+    text-align: center;
+    color: #999;
+    .self-define{
+      margin-left: 30px;
+      ul{
+        min-width: 80px;
+      }
+    }
+    button{
+      padding:0;
+      background-color: #fff;
+      span{
+        font-size: 32px;
+      }
+    }
+  }
+}
+
+//content
+.content{
+  min-height: 600px;
+}
+//footer
+.footer{
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: $commonBule;
+}
